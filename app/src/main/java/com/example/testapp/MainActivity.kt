@@ -28,8 +28,9 @@ class MainActivity : AppCompatActivity() {
             ViewModelFactory()
         )[MainViewModel::class.java]
 
+        mainViewModel.getAll()
         mainViewModel.todo.observe(this){
-            showRecylerList(it.response)
+            showRecylerList(it)
         }
     }
 

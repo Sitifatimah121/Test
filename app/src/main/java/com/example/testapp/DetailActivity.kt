@@ -1,8 +1,7 @@
 package com.example.testapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bumptech.glide.Glide
+import androidx.appcompat.app.AppCompatActivity
 import com.example.testapp.databinding.ActivityDetailBinding
 import com.example.testapp.remote.Todos
 
